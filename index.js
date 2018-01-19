@@ -26,6 +26,9 @@ function makeInt(n){
   if (typeof n === 'number'){
 return parseInt('n', 10)
   }
+else if (typeof n === 'string'){
+  return parseInt('n', 10)
+}
 else{ 
   return NaN
 }
