@@ -27,7 +27,6 @@ return parseInt(n, 10)
 }
 
 function preserveDecimal(n){
-  if (typeof n === 'number'){
   return parseFloat(n)}
   else {
     return NaN
