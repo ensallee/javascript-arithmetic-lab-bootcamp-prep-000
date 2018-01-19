@@ -29,7 +29,7 @@ return parseInt('n', 10)
  else if(n===0){
    return 0
  }
-else{ 
+else if (isNAN === true){ 
   return NaN
 }
 }
